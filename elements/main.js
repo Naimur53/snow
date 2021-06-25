@@ -16,7 +16,7 @@ function createSnow(){
         this.remove();
     }, 5000);
 
-    snowFlake.addEventListener("mousemove",function(){
+    snowFlake.addEventListener("mouseover",function(){
         snowFlake.remove();
         console.log("remove");
     })
